@@ -1,7 +1,5 @@
 # Barcode-Scanner
 
-- This application uses Google Play Services Vision library to scan barcodes.
-
 - This application showcases use of <b>Google Play Services Vision library</b>
 
 - It uses Google's on device <b>machine learning</b> kit to scan for barcodes.

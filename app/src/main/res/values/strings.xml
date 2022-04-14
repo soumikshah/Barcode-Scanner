@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Barcode Scanner</string>
+    <string name="start_scanning">Start Scanning</string>
+    <string name="welcome_description">
+        This application showcases use of \n <font size="20"><b>Google Play Services Vision library</b></font>.\n\n
+                It uses Google"'"s on device <b>machine learning</b> kit to scan for barcodes.\n\n
+                This application can scan most of the barcode types like \n
+                <b> - Linear formats: Codabar, Code 39, Code 93, Code 128, EAN-8, EAN-13, ITF, UPC-A, UPC-E</b>\n\n
+                <b> - 2D formats: Aztec, Data Matrix, PDF417, QR Code</b>\n
+                \n
+                This application uses <b>CameraSource</b> and <b>BarcodeDetector</b>. \n\n
+                These particular types of barcode value is being handled gracefully in this application \n\n
+                (For other types of data you would see raw data) \n
+                <b>- Wifi (SSID, password and encryption type),
+                URL (Title and URL from the barcode), Product (Product Number from the barcode),
+                Email address (Email Address, Subject, Body and Type),Phone number (phone number)</b>\n\n
+        <b>You can long press on the scanned value (on the bottom of the scanner) to copy the value to your clipboard.</b> \n\n
+        <b>Animation is used to show red color scanning line on the screen</b>.\n\n
+                It natively supports <b>dark mode</b>.\n\n
+        <b>It restarts CameraSource if you press rescan button. So you can rescan another barcode.</b>\n\n
+        Libraries used are <b>Lottie Animation and Google Play Services Vision</b>.
+    </string>
+    <string name="welcome_title">Welcome to the Barcode Scanner</string>
+    <string name="placeholder_text">Your scanned item will show here!</string>
+    <string name="copy_to_clipboard">Copied text to the clipboard.</string>
+    <string name="rescan">Rescan</string>
+</resources>
